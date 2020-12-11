@@ -1,0 +1,51 @@
+#login {
+    height: 100vh;
+    background: #344a5f;
+}
+
+.login-wrap {
+    width: 330px;
+    margin: auto;
+}
+
+.menu-tab {
+    text-align: center;
+
+    li {
+        display: inline-block;
+        width: 88px;
+        line-height: 36px;
+        color: white;
+        border-radius: 2px;
+        cursor: pointer;
+
+        &.current {
+            background: black;
+            opacity: 0.1;
+        }
+    }
+}
+
+.login-form {
+    margin-top: 29px;
+
+    label {
+        display: block;
+        margin-bottom: 3px;
+        font-size: 14px;
+        color: white;
+    }
+}
+
+.item-form {
+    margin-bottom: 13px;
+}
+
+.block {
+    display: block;
+    width: 100%;
+}
+
+.btn-margin-top {
+    margin-top: 10px;
+}
